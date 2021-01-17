@@ -2,28 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
-body{
-    display: flex;
-}
-main{
-    background-color:black;
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-}
-h1{
-    width: 450px;
-    height: 50px;
-    color:#FFF;
-    margin: 50px 50px 50px 50px;
-    justify-content: center;
-    border: solid 10px white;
-    display: flex;
-    margin-top: 100px;
-    font-size: medium;
-    font-size:
-}
-h1 p{
 
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color:black;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn{
+    padding: 1em;
+    margin-bottom: 5em;
+    background-color: black;
+    font-size: 1rem;
+    border: solid 5px white;
+    color: white;  
+}
+
+#btn:hover{
+background-color: white;
+transition: 1s;
+color: black;
+}
+.btn1{
+    padding: 1em;
+    margin-bottom: 5em;
+    background-color: black;
+    font-size: 1rem;
+    border: solid 5px white;
+    color: white;  
+}
+#btn1:hover{
+    background-color: white;
+    color: black;
+    transform: scale(2,2);
+    transition: 1s;
+}
+
+.btn2{
+    padding: 1em;
+    margin-bottom: 5em;
+    background-color: black;
+    font-size: 1rem;
+    border: solid 5px white;
+    color: white;
+}
+#btn2:hover{
+    background-color: white;
+    color: black;
+    transform: translate(80px);
+    transition: 1s;
 }
